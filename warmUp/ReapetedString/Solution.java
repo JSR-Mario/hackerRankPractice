@@ -24,7 +24,7 @@ class Result {
      */
 
     public static long repeatedString(String s, long n) {
-        if(s.isEmpty() || s == null || n <= 0){
+        if(s == null || s.isEmpty() ||  n <= 0){
             return 0;
         }
 
